@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    box-sizing: border-box;
+  }
+  
+
+.header {
+    overflow: hidden;
+    background-color: #8eb3aa;
+    padding: 18px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 50px 8px 50px;
+    -webkit-box-shadow: 0px 4px 15px -1px #000000; 
+    box-shadow: 0px 4px 15px -1px #000000;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    vertical-align: middle;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: #295733;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 4px;
+    margin: 4px;
+    top: 50%;
+    
+  }
+
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #235f83;
+    color: #fff;
+    
+  }
+
+  .header a.active{
+    background-color: #235f83;
+    color: #fff;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+    margin-right: 10px;
+  }
+
+  .search {
+    width: 500px;
+    height: 40px;
+    position: relative;
+    display: flex;
+  }
+
+  .searchTerm {
+    width: 600px;
+    border: 3px solid #235f83;
+    border-right: none;
+    padding: 5px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #235f83;
+  }
+
+  .searchButton {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #235f83;
+    background: #235f83;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+ 

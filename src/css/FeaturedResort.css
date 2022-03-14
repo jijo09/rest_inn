@@ -1,0 +1,12 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    box-sizing: border-box;
+  }
+
+  h1{
+    font-size: 35px;
+    color: #235f83;
+  }
