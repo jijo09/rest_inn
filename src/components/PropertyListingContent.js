@@ -3,25 +3,27 @@ import PropertyCard from "./PropertyCard";
 
 const PropertyListingContent = () => {
   
-  const [resorts , setResorts] = useState([{
+  const [dbs , setdbs] = useState([{
     id:0,
     title:"",
     price: 0,
+    type:"",
+    details:"",
     imageSrc : null
   }]);
 
 
   useEffect(()=>{
 
-    const URLresort = 'http://localhost:5000/resorts'
+    const URLdb = 'http://localhost:5000/dbs'
     //MAKE AN AJAX request
 
-    fetch(URLresort)
+    fetch(URLdb)
     .then(response=>response.json())
 
     .then(json=>{
 
-      setResorts(json)
+      setdbs(json)
     })
     .catch(err=>console.log(err))
 
@@ -40,11 +42,11 @@ const PropertyListingContent = () => {
 
           <div className="grid grid-gap-1 grid-row-gap-2">
 
-          {resorts.map
+          {dbs.map
 
-          (resort=>
+          (db=>
 
-            ( <PropertyCard id={resort.id} title={resort.title} image ={resort.img} price={resort.price} />)
+            <PropertyCard id={db.id} title={db.title} image ={db.img} price={db.price} type={db.type} details={db.details} />
             
           )}
 

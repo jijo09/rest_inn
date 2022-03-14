@@ -1,19 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "../css/Card.css";
+import "../css/Card.css"
 
-const Card = (props) => {
+const propertytypecard = (props) => {
   return  (
 
     <div className="resort-card">
 
-      <Link to = {`/${props.type}/${props.id}`}> 
+      <Link to = {`propertytype/${props.type}`}> 
           <img src={props.image} alt=""/>   
       </Link>
 
       <div className="resortContent">
-          <h3 className='card-title'>{props.title}</h3>
-          <p className='card-price'>${props.price} per night</p>
+          <h2 className='card-title'>{props.type}</h2>
       </div>
 
   </div>
@@ -21,4 +20,4 @@ const Card = (props) => {
   );
 };
 
-export default Card;
+export default propertytypecard;

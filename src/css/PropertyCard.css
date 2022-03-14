@@ -126,9 +126,9 @@
     text-align: left;
     width : 700px;
     height: 300px;
-    background-color: bisque;
     margin: 50px;
     margin-left: 350px;
+    text-decoration: none;
 }
 
 .resortContent h3
@@ -155,3 +155,7 @@
 {
     grid-column: 2/span 3;
 }
+
+.link {
+    color: #295733;
+  }

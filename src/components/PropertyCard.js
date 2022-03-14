@@ -5,19 +5,19 @@ import "../css/PropertyCard.css"
 const propertycard = (props) => {
   return  (
 
-<Link to = {`/resorts/${props.id}`}>
+<Link to = {`/dbs/${props.id}`} style={{ textDecoration: 'none' }} className = "link">
     <div className="resort-card-property">
-
-    
 
           <img className = "resort-card-property img" src={props.image} alt=""/>   
 
             <div className="resortContent-property">
-            <h1>Property Name</h1><br/>
-          <h2 className='card-title'>{props.title}</h2>
-          <br/><br/><br/>
+            <h2>{props.title}</h2><br/>
+          <br/>
+          <h2>Property Type : {props.type} </h2><br/>
           <b><h2>Description</h2><br/></b>
-          <h3 className='card-title'>{props.title}</h3>
+          <h3 className='card-title'>{props.details}</h3>
+          <br/><br/>
+          <h2>Price : $ {props.price}</h2>
        
 
       </div>

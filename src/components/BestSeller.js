@@ -1,29 +1,31 @@
 import React,{useState,useEffect} from 'react';
-import Card from "./Card";
+import Card from "./card.js";
 import "../css/FeaturedResort.css"
 import "../css/Card.css"
 
 const BestSeller = () => {
   
-  const [resorts , setResorts] = useState([{
+  const [dbs , setdbs] = useState([{
+    featured:false,
     id:0,
     title:"",
     price: 0,
+    type:"",
     imageSrc : null
   }]);
 
 
   useEffect(()=>{
 
-    const URLresort = 'http://localhost:5000/resorts'
+    const URLdb = 'http://localhost:5000/dbs'
     //MAKE AN AJAX request
 
-    fetch(URLresort)
+    fetch(URLdb)
     .then(response=>response.json())
 
     .then(json=>{
 
-      setResorts(json)
+      setdbs(json)
     })
     .catch(err=>console.log(err))
 
@@ -38,18 +40,14 @@ const BestSeller = () => {
       
       <h1>Best Seller</h1><br/>
           <br/>
-          <br/>
-          <br/>
 
           <div className="grid grid-gap-1 grid-row-gap-2 grid-col-4">
 
-          {resorts.map
-
-            (resort=>
-
-              ( <Card id={resort.id} title={resort.title} image ={resort.img} price={resort.price} />)
+          {
+          
+          dbs.filter((db)=>{return db.featured===true;}).map(db=>(<Card id={db.id} title={db.title} type={db.type} image={db.img} price={db.price} featured={db.featured}/>))
               
-            )}
+          }
 
           <br/>
           <br/>

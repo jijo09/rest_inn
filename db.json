@@ -1,151 +1,168 @@
 {
-    "resorts": 
-    [
-      { 
+  "dbs": 
+  [
+    { 
 
-        "id" : 184845,
-        "title" : "Toronto Lovers Island",
-        "price" : 1.00,
-        "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort1.webp",
-        "featured" : true
-      },
-      { 
+      "id" : 1,
+      "title" : "The Windflower Jungle Resorts & Spa Bandipur",
+      "price" : 80.00,
+      "img" : "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmVzb3J0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "type": "resort",
+      "details" : "An award-winning Emerge Spa at the property offers a diverse range of spa treatments. The alfresco dining spaces with a relaxed ambience offer delicious local cuisine. Bandipur National Park is about a 15-min ride from the resort. Guests can enjoy a pleasant evening with their loved ones in the warmth of the bonfire.",
+      "featured" : true
+    },
+    { 
 
-        "id" : 29848484,
-        "title" : "Brampton Special Condos",
-        "price" : 18.50,
-        "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort2.webp",
-        "featured" : false
-      },
-      { 
+      "id" : 2,
+      "title" : "Paatlidun Safari Lodge, Jim Corbett",
+      "price" : 120,
+      "img" : "https://images.unsplash.com/photo-1551918120-9739cb430c6d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cmVzb3J0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "type": "resort",
+      "details" : "Enjoy an outdoor campfire and dine under the stars during your stay at this property. Located near Jim Corbett, the property offers a first-hand experience of wildlife with its lush green surroundings. Take a dip in the luxurious private pool or unwind with a magical spa session. Relax or read a book at the cosy and private sit-out area in the company of your loved ones.",
+      "featured" : false
+    },
+    { 
 
-        "id" : 3384848,
-        "title" : "Trinidad and Tobago Island Life Apartments",
-        "price" : 250,
-        "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort3.webp",
-        "featured" : false
-      },
-      { 
+      "id" : 3,
+      "title" : "Span Resort and Spa",
+      "price" : 250,
+      "img" : "https://images.unsplash.com/photo-1549294413-26f195200c16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc29ydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      "type": "resort",
+      "details" : "Take a refreshing dip in the outdoor swimming pool or gift yourself a spa session. Enjoy lip-smacking and refreshing drinks at the in-house restaurant, Riverside Restaurant. Connect with your friends and loved ones by the cosy bonfire arranged on-site. Stay at the award-winning property bestowed with World Luxury Hotel Awards in 2017.",
+      "featured" : false
+    },
+    { 
 
-        "id" : 4,
-        "title" : "Netflix and Chill House",
-        "price" : 1089.50,
-        "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort4.webp",
-        "featured" : false
-      }
+      "id" : 4,
+      "title" : "Goa Marriott Resort & Spa",
+      "price" : 200.50,
+      "img" : "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cmVzb3J0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "type": "resort",
+      "details" : "Set beside the beautiful Miramar Beach, the property offers mesmerizing views and a peaceful ambience. Offers signature bay view suites with a well-furnished living room and a private patio. Houses multiple award-winning dining venues, including a swanky swim-up bar. Features a lovely outdoor pool and a luxury spa offering holistic therapies and treatments.",
+      "featured" : false
+    },
+    { 
 
-    ],
+      "id" : 5,
+      "title" : "Stay in a lovely Riverdale Crescent w Free parking",
+      "price" : 25.00,
+      "img" : "https://media.istockphoto.com/photos/apartment-building-picture-id486644087?b=1&k=20&m=486644087&s=170667a&w=0&h=bEr9eZSg5gA0SmIkfECwqw1UjclNkk03PmJBAPkdamo=",
+      "type": "apartment",
+      "details" : "Free private parking, just 10 feet from this lower-level private studio suite, located on a quiet street & safe neighbourhood; short walk to the subways and amazing restaurants on Danforth, shopping, parks, entertainment, and sports facilities, etc.Washer&Dryer to your own use.",
+      "featured" : true
+    },
+    { 
 
-    "apartments": 
-    [
-      { 
+      "id" : 6,
+      "title" : "Executive Townhouse with 2 Bedrooms Free Parking",
+      "price" : 32.50,
+      "img" : "https://media.istockphoto.com/photos/new-modernist-townhouses-in-downtown-raleigh-nc-picture-id1319270438?b=1&k=20&m=1319270438&s=170667a&w=0&h=vlZki_l9xR3b6Lfe6pXdBgpA9QVGpYRyEin4GvqI9tk=",
+      "type": "apartment",
+      "details" : "Gorgeously decorated 3 story townhouse with two separate bedrooms with queen size beds. One main bathroom and one powder room. Three story townhouse with a large private terrace.",
+      "featured" : false
+    },
+    { 
 
-        "id" : 1,
-        "title" : "Toronto Lovers Island",
-        "price" : 1.00,
-        "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort1.webp",
-        "featured" : true
-      },
-      { 
+      "id" : 7,
+      "title" : "Charming Apt 2 Min Subway/sleeps 4",
+      "price" : 45,
+      "img" : "https://media.istockphoto.com/photos/business-district-with-tall-modern-office-buildings-at-amsterdam-zuid-picture-id1313787429?b=1&k=20&m=1313787429&s=170667a&w=0&h=_AK9s-kRHxiw3RG4ToobxwVI4bzjgHaq3TeOtTsRq6s=",
+      "type": "apartment",
+      "details" : "Welcome to a bright apartment in one of the hippest areas in the city, Dufferin Grove. A 2-minute walk from the subway and sandwiched between College St. and Bloor St., the possibilities for dining, shopping and exploring are limitless! Accommodates up to 4 adults.",
+      "featured" : false
+    },
+    { 
 
-        "id" : 2,
-        "title" : "Brampton Special Condos",
-        "price" : 18.50,
-        "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort2.webp",
-        "featured" : false
-      },
-      { 
+      "id" : 8,
+      "title" : "1br in Kensington Market",
+      "price" : 18.50,
+      "img" : "https://media.istockphoto.com/photos/exterior-view-of-modern-apartment-building-offering-luxury-rental-in-picture-id1322575582?b=1&k=20&m=1322575582&s=170667a&w=0&h=bGCtLpgCEorQuVdW2lbWguNZHcOGPePSwDibgbgyh0U=",
+      "type": "apartment",
+      "details" : "This 1br unit is in the heart of Kensington Market yet it's away from the main streets, making it perfectly quiet. It's fully furnished, including a mini-gym, a fully equipped kitchen, a front-yard patio and an electric bidet, among other amenities.",
+      "featured" : false
+    },
+    { 
 
-        "id" : 3,
-        "title" : "Trinidad and Tobago Island Life Apartments",
-        "price" : 250,
-        "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort3.webp",
-        "featured" : false
-      },
-      { 
+      "id" : 9,
+      "title" : "Maravilha",
+      "price" : 75.00,
+      "img" : "https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvdGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "type": "hotel",
+      "details" : "Take a refreshing dip in the on-site swimming pool. Enjoy evening strolls at the lush garden on-site.Visit tourist sites like Ozran Beach and Saturday Night Market located close to the property.",
+      "featured" : false
+    },
+    { 
 
-        "id" : 4,
-        "title" : "Netflix and Chill House",
-        "price" : 1089.50,
-        "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort4.webp",
-        "featured" : false
-      }
+      "id" : 10,
+      "title" : "Cowboy Castle by Vista Rooms",
+      "price" : 45.50,
+      "img" : "https://images.unsplash.com/photo-1568084680786-a84f91d1153c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGhvdGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "type": "hotel",
+      "details" : "Bask in the breathtaking views of the valley from the property. Bond with your friends and family by the bonfire while nibbling on barbecue delights. Find the adventure spirit in you and go on a jungle safari offered by the property. Wind down the day with a movie night in the entertainment room.",
+      "featured" : true
+    },
+    { 
 
-    ],
+      "id" : 11,
+      "title" : "Elgin Hall",
+      "price" : 85.00,
+      "img" : "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fGhvdGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "type": "hotel",
+      "details" : "Enjoy a British-style tea time in the gorgeous tea lounge. Choose from a range of elegantly designed rooms that come with Victorian-style furnishings. Wake up to panoramic views of the hills in the comfort of your room. Challenge your loved ones over a game of cricket or carom.",
+      "featured" : false
+    },
+    { 
 
-    "hotels": 
-    [
-      { 
+      "id" : 12,
+      "title" : "Hills & Hues",
+      "price" : 90.50,
+      "img" : "https://images.unsplash.com/photo-1598605272254-16f0c0ecdfa5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fGhvdGVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "type": "hotel",
+      "details" : "Take a refreshing dip in the lovely infinity pool. Cherish stunning visuals of the surrounding valleys and hills from the sit-out area. Indulge in cooking classes organised by the property's professional chef. Indulge in a variety of rejuvenating Ayurvedic therapies at the property.",
+      "featured" : false
+    },
+    { 
 
-        "id" : 1,
-        "title" : "Toronto Lovers Island",
-        "price" : 1.00,
-        "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort1.webp",
-        "featured" : false
-      },
-      { 
+      "id" : 13,
+      "title" : "Treehouse on private, isolated forest",
+      "price" : 23.00,
+      "img" : "https://media.istockphoto.com/photos/modern-living-room-interior-3d-render-picture-id1293762741?b=1&k=20&m=1293762741&s=170667a&w=0&h=2RI8SmBN4MrEZuTvdwRzaeB887x-dukFcQBpyQ-qwS4=",
+      "type": "condo",
+      "details" : "You will feel like you're a thousand miles from Toronto. Your own private space with several ponds for swimming, gazebo, fire pits, running water, hot shower, mtn bike and hiking trails. With 300 acres at your door step, you can choose not to see another soul during your stay or venture to a nearby winery, restaurants, shopping, horse farms, golf courses or ski hills!",
+      "featured" : false
+    },
+    { 
 
-        "id" : 2,
-        "title" : "Brampton Special Condos",
-        "price" : 18.50,
-        "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort2.webp",
-        "featured" : true
-      },
-      { 
+      "id" : 14,
+      "title" : " Couples Beautiful Cottage - Winter Escape",
+      "price" : 18.50,
+      "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort2.webp",
+      "type": "condo",
+      "details" : "Lodgr was started out of our own frustration at some vacation rental websites and options on the market today. Specifically, we were aghast at the number of poor reviews, and horror stories, folks shared after a nightmarish stay, booked through other sites. We realized what was missing; two things: the personal touch, and quality control",
+      "featured" : false
+    },
+    { 
 
-        "id" : 3,
-        "title" : "Trinidad and Tobago Island Life Apartments",
-        "price" : 250,
-        "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort3.webp",
-        "featured" : false
-      },
-      { 
+      "id" : 15,
+      "title" : "Ironwood Cabin",
+      "price" : 45,
+      "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort3.webp",
+      "type": "condo",
+      "details" : "Our condo is located in the quiet hamlet of Campden in Niagara wine country and within easy reach of wineries, hiking trails, bike routes and leisurely boating experiences. Look at my Guidebook for lots of local accesses to the Bruce Trail and be sure to chat with me about some of our favourite spots.",
+      "featured" : true
+    },
+    { 
 
-        "id" : 4,
-        "title" : "Netflix and Chill House",
-        "price" : 1089.50,
-        "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort4.webp",
-        "featured" : false
-      }
+      "id" : 16,
+      "title" : "Pine River Bunkies: Heron’s Landing Off Grid",
+      "price" : 14.50,
+      "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort4.webp",
+      "type": "condo",
+      "details" : "Following a path in the forest, you’ll come upon one of two beautiful hand-constructed Northern Spruce Bunkies, 50 metres apart, each is a secluded, rustic get-away set into the side of a hill, surrounded by trees and the quiet beauty of nature. An hour’s drive from Toronto, we are located in Mulmur Township, straddling the famous Niagara Escarpment, a UNESCO World Biosphere Reserve. ",
+      "featured" : false
+    }
 
-    ],
-
-    "condos": 
-    [
-      { 
-
-        "id" : 1,
-        "title" : "Toronto Lovers Island",
-        "price" : 1.00,
-        "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort1.webp",
-        "featured" : false
-      },
-      { 
-
-        "id" : 2,
-        "title" : "Brampton Special Condos",
-        "price" : 18.50,
-        "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort2.webp",
-        "featured" : false
-      },
-      { 
-
-        "id" : 3,
-        "title" : "Trinidad and Tobago Island Life Apartments",
-        "price" : 250,
-        "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort3.webp",
-        "featured" : true
-      },
-      { 
-
-        "id" : 4,
-        "title" : "Netflix and Chill House",
-        "price" : 1089.50,
-        "img" : "https://resort-destination-app.s3.us-east-2.amazonaws.com/resort4.webp",
-        "featured" : false
-      }
-
-    ]
+  ]
 }
 
 
